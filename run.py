@@ -76,9 +76,8 @@ def telegram_push(message):
     if response.status_code != 200:
         print(f"发送消息到Telegram失败: {response.text}")
 
-if push == "mail":
+if push == "mail telegram":
     mail_push('https://zzzwb.us.kg/test')
-if pu == "telegram":
     telegram_push(content)
 else:
     print("推送失败，推送参数设置错误")
