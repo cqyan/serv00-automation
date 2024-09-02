@@ -29,6 +29,7 @@ jobs:
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
           MAIL: ${{ secrets.MAIL }}
           PUSH: ${{ secrets.PUSH }}
+          PU: ${{ secrets.PU }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           
