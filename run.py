@@ -79,5 +79,9 @@ def telegram_push(message):
 if push == "mail telegram":
     mail_push('https://zzzwb.us.kg/test')
     telegram_push(content)
+if push == "mail":
+    mail_push('https://zzzwb.us.kg/test')
+if push == "telegram":
+    telegram_push(content)
 else:
     print("推送失败，推送参数设置错误")
